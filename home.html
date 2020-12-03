@@ -12,34 +12,51 @@
          -webkit-background-size: cover;
          -o-background-size: cover;
          background-size: cover;}
-
-      .llogo{
-      width: 20%;
-	   left: 40%;
-	   position: relative;
-	   top: 35%;
-	   height: 30%;
-	   display: flex;
-	   flex-direction: column;
-	   justify-content: center;
-      align-items: center;}
-      
+      header{
+         border: 2px solid green;
+      }
       h1{
          text-align: center;
          color: white;}
 
+      p{text-align: center;}
+
+     ul,li,a{
+        list-style-type: none;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        margin-left:5px ;}
+
+        main{
+           border: 2px solid black;
+           display: flex;
+           flex-direction: column;
+           justify-content: space-between;
+           align-items: center;
+           }
+
+      footer{
+         border: 2px solid red;}
+
     </style>
 </head>
 <body>
+   <header>
    <ul>
    	<li><a href="home.html">Home</a></li>
    	<li><a href="aboutUs.html">About Us</a></li>
    	<li><a href="product.html">Product</a></li>
    </ul>
-   <br>
+</header>
+   <main>
    <h1>WELCOME TO</h1>
-   <div class="llogo">
+   <p class="llogo">
 	<img src="logo_transparent.png" height="400px" width="400px">
-   </div>
+   </p>
+</main>
+<footer>
+   <p>Millow Pillow WebPage</p>
+</footer>
 </body>
 </html>
