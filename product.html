@@ -1,9 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Pillow Millow</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Pillow Millow</title>
+  <style>
+     body{
+        background-color:white ;
+     }
+     .links {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: bold;
+   float: left;
+   color:beige;
+   text-align: center;
+   padding: 12px;
+   text-decoration: none;
+   font-size: 18px;
+   line-height: 25px;
+   border-radius: 4px;
+}
+nav .logo {
+   font-size: 25px;
+   font-weight: bold;
+}
+nav .links:hover {
+   background-color:  rgb(241, 204, 124);
+}
+nav .selected {
+   color: rgb(168, 140, 80);
+}
+.rightSection {
+   float: right;
+}
+ @media screen and (max-width: 870px) {
+   nav .links {
+      float: none;
+      display: block;
+      text-align: left;
+   }
+ }
+   .rightSection {
+      float: none;
+   }
+
+  </style> 
 </head>
+
 <body>
-   <h3>adi</h3>
+   <header>
+      <nav>
+         <div class="rightSection">
+         <a class="links" href="home.html">Home</a>
+         <a class="links" href="aboutUs.html">About Us</a>
+         <a class="selected links" href="product.html">Product</a>
+         </div>
+        
+</header>
 </body>
 </html>

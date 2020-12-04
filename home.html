@@ -7,56 +7,97 @@
     <style>
 
         body{
-         background-image: url(123.jpg) ;
+         background-image: url(123456.jpg) ;
          -moz-background-size: cover;
          -webkit-background-size: cover;
          -o-background-size: cover;
          background-size: cover;}
-      header{
-         border: 2px solid green;
-      }
+      
       h1{
+    
+         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
          text-align: center;
-         color: white;}
+         color: rgb(241, 204, 124);}
 
       p{text-align: center;}
 
-     ul,li,a{
-        list-style-type: none;
-        text-decoration: none;
-        display: flex;
-        flex-direction: row;
-        margin-left:5px ;}
+      * {box-sizing: border-box;}
+nav {
+   overflow: hidden;;
+   padding: 10px;
+}
+.links {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: bold;
+   float: left;
+   color:beige;
+   text-align: center;
+   padding: 12px;
+   text-decoration: none;
+   font-size: 18px;
+   line-height: 25px;
+   border-radius: 4px;
+}
+nav .logo {
+   font-size: 25px;
+   font-weight: bold;
+}
+nav .links:hover {
+   background-color:  rgb(138, 128, 106);
+}
+nav .selected {
+   color: rgb(241, 204, 124);
+}
+.rightSection {
+   float: right;
+}
+ @media screen and (max-width: 870px) {
+   nav .links {
+      float: none;
+      display: block;
+      text-align: left;
+   }
+ }
+   .rightSection {
+      float: none;
+   }
 
-        main{
-           border: 2px solid black;
-           display: flex;
-           flex-direction: column;
-           justify-content: space-between;
-           align-items: center;
-           }
 
-      footer{
-         border: 2px solid red;}
+    main{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
+        }
+
+    footer{
+       padding: 20px;
+       text-align: center;
+       color:  rgb(241, 204, 124);
+       text-decoration: none;
+         }
 
     </style>
 </head>
 <body>
    <header>
-   <ul>
-   	<li><a href="home.html">Home</a></li>
-   	<li><a href="aboutUs.html">About Us</a></li>
-   	<li><a href="product.html">Product</a></li>
-   </ul>
+      <nav>
+         <div class="rightSection">
+         <a class="selected links" href="home.html">Home</a>
+         <a class="links" href="aboutUs.html">About Us</a>
+         <a class="links" href="product.html">Product</a>
+         </div>
+        
 </header>
-   <main>
+<main>
    <h1>WELCOME TO</h1>
    <p class="llogo">
 	<img src="logo_transparent.png" height="400px" width="400px">
    </p>
 </main>
 <footer>
-   <p>Millow Pillow WebPage</p>
+  <h3>Contact us</h3>
+  <p><a href="mailto:millowpillow@gmail.com" style="color:rgb(241, 204, 124);">millowpillow@gmail.com</a></p>
 </footer>
 </body>
 </html>
