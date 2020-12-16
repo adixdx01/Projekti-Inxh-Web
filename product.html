@@ -241,6 +241,10 @@ li{
    }
 }
 /*--------------------------------------slideri-------------------------------------*/
+.whole{
+   display: flex;
+   flex-direction: row;
+}
 	</style>
 </head>
 <body>
@@ -250,11 +254,13 @@ li{
 		   <a class="links" href="home.html">Home</a>
 		   <a class="links" href="aboutUs.html">About Us</a>
 		   <a class="selected links" href="product.html">Product</a>
-		   </div>
-		  
+         </div>
+      </nav> 
   </header>
+
   <main>
-<div id="slider">
+ <div class="whole">
+   <div id="slider">
    <input type="radio" name="slider" id="slide1" checked>
    <input type="radio" name="slider" id="slide2">
    <input type="radio" name="slider" id="slide3">
@@ -305,7 +311,7 @@ li{
    <li>Washable plush cover and a detachable neckpillow.</li>
    <li>Extra pockets on the sides so you can put your phone, a book or anything</li>
 </div>
-    
+</div>
     <h2 style="text-align:center">Reviews</h2>
     <div class="row">
       <div class="clmn">
