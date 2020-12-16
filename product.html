@@ -107,7 +107,6 @@ li{
 }
 /*-----------------------------------slideri----------------------------------------*/
 #slider {
-   margin: 0 auto;
    width: 500px;
    max-width: 60%;
    text-align: center;
@@ -120,8 +119,8 @@ li{
    text-decoration: none;
 }
 #slides {
-   padding: 10px;
-   border: 3px;
+   padding: 5px;
+   border: 2px;
    background: #fff;
    position: relative;
    z-index: 1;
@@ -196,13 +195,7 @@ li{
    z-index: 3;
    position: relative;
 }
-#controls label {
-   transition: opacity 0.2s ease-out;
-   display: none;
-   width: 50px;
-   height: 50px;
-   opacity: .4;
-}
+
 #controls label:hover {
    opacity: 1;
 }
@@ -235,16 +228,14 @@ li{
    #slide4:checked ~ #controls label:nth-last-child(1) {
       margin: 0;
    }
-   #slides {
-      max-width: calc(100% - 140px);
-      margin: 0 auto;
-   }
+  
 }
 /*--------------------------------------slideri-------------------------------------*/
 .whole{
    display: flex;
    flex-direction: row;
-   justify-content: center;
+   justify-content: space-evenly;
+ 
 }
  header{
    display: flex;
