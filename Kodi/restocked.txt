@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>MillowPillow </title>
+   <style>
+       body{
+           background-color: rgb(106, 121, 81);
+           color: rgb(241, 224, 226);
+           text-align: center;
+       }
+       .footer{
+       margin: 0 auto;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
+       width:max-content;
+       background-color: #2755359d;
+       border-radius: 100px;
+       margin-top: 80px;
+       padding: 10px;
+       text-align: center;
+       color:  rgb(241, 224, 226);
+       text-decoration: none;
+         }
+   </style>
+</head>
+<body>
+    <h1>We are currently out of stock :( </h1>
+   <h2>Sign up to stay notified about the restock </h2>
+   <div class="footer" >
+    <h3>Contact us</h3>
+    <p><a href="mailto:millowpillow@gmail.com" style="color: rgb(241, 224, 226) ;">millowpillow@gmail.com</a></p>
+    <p>with ❤ by MPteam</p>
+  </div>
+</body>
+</html>

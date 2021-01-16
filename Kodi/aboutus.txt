@@ -5,7 +5,7 @@
 	<title>MillowPillow</title>
 	<style>
 		 body{
-        background-color: #afadac ;
+        background-color: #8f8777 ;
       
      }
      .links {
